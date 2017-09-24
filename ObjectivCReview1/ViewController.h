@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *Label2;
 
+- (IBAction)buttonAction:(UIButton *)sender;
 
 @end
 

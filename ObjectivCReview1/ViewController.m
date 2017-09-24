@@ -37,5 +37,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) buttonPerro{
 
+ _label1.text = @"boton perro";
+
+
+}
+
+
+- (IBAction)buttonAction:(UIButton *)sender {
+
+    [self buttonPerro];
+}
 @end
