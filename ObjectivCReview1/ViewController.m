@@ -23,6 +23,10 @@
 
     
     printf("Hello México2");
+    
+    _label1.text = @"Hello";
+    
+    _Label2.text = @"Cancún";
 
     // Do any additional setup after loading the view, typically from a nib.
 }
