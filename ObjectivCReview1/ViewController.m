@@ -37,9 +37,9 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) buttonPerro{
+-(void) buttonPerro:(NSString*) nombre{
 
- _label1.text = @"boton perro";
+ _label1.text = (@"boton perro:@%", nombre);
 
 
 }
@@ -47,6 +47,9 @@
 
 - (IBAction)buttonAction:(UIButton *)sender {
 
-    [self buttonPerro];
+   // [self buttonPerro];
+    
+    [self buttonPerro:@"Evil"];
+    
 }
 @end
