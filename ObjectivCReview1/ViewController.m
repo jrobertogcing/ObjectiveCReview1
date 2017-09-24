@@ -18,6 +18,12 @@
     [super viewDidLoad];
     
     printf("Hello Cancún");
+    
+    printf("Hello Cancún2");
+
+    
+    printf("Hello México2");
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
