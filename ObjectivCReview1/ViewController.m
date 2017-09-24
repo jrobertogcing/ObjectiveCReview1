@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    printf("Hello Cancún");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
