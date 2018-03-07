@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A6E22E204F5F5A006E54BA /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A6E22D204F5F5A006E54BA /* TestClass.m */; };
 		E1F2B7D01F782F8000C252F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2B7CF1F782F8000C252F5 /* main.m */; };
 		E1F2B7D31F782F8000C252F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2B7D21F782F8000C252F5 /* AppDelegate.m */; };
 		E1F2B7D61F782F8000C252F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F2B7D51F782F8000C252F5 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88A6E22C204F5F5A006E54BA /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		88A6E22D204F5F5A006E54BA /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		E1F2B7CB1F782F8000C252F5 /* ObjectivCReview1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectivCReview1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F2B7CF1F782F8000C252F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1F2B7D11F782F8000C252F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				E1F2B7D21F782F8000C252F5 /* AppDelegate.m */,
 				E1F2B7D41F782F8000C252F5 /* ViewController.h */,
 				E1F2B7D51F782F8000C252F5 /* ViewController.m */,
+				88A6E22C204F5F5A006E54BA /* TestClass.h */,
+				88A6E22D204F5F5A006E54BA /* TestClass.m */,
 				E1F2B7D71F782F8000C252F5 /* Main.storyboard */,
 				E1F2B7DA1F782F8000C252F5 /* Assets.xcassets */,
 				E1F2B7DC1F782F8000C252F5 /* LaunchScreen.storyboard */,
@@ -105,7 +110,7 @@
 		E1F2B7C31F782F7F00C252F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Robert González";
 				TargetAttributes = {
 					E1F2B7CA1F782F7F00C252F5 = {
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A6E22E204F5F5A006E54BA /* TestClass.m in Sources */,
 				E1F2B7D61F782F8000C252F5 /* ViewController.m in Sources */,
 				E1F2B7D31F782F8000C252F5 /* AppDelegate.m in Sources */,
 				E1F2B7D01F782F8000C252F5 /* main.m in Sources */,
@@ -187,7 +193,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -195,7 +203,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,7 +247,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -243,7 +257,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -309,6 +327,7 @@
 				E1F2B7E41F782F8000C252F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

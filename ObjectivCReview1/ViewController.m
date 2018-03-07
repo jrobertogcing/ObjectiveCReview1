@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestClass.h"
+
 
 @interface ViewController ()
 
@@ -14,21 +16,33 @@
 
 @implementation ViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     printf("Hello Cancún");
     
-    printf("Hello Cancún2");
-
-    
-    printf("Hello México2");
-    
     _label1.text = @"Hello";
     
     _Label2.text = @"Cancún";
-
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSString *cadena = @"la frase para contar letras";
+    
+    printf("Total cadena%d\n", (int)[cadena length]);
+    printf("%c\n", [cadena characterAtIndex:6]);
+    
+    //call Class
+    
+    TestClass *instanceCreated = [[TestClass alloc] init ];
+    
+    // call methods
+    int result = [instanceCreated doSomething];
+    printf("%d\n", result);
+    
+    int result2 = [instanceCreated sumarNum:40 numbers:11];
+    printf("%d\n", result2);
 }
 
 
@@ -36,10 +50,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//MARK: function
+
+void ageFunction(char *name, float num1){
+    
+    printf("The name is %s and have %.2f years old", name, num1);
+    
+}
 
 -(void) buttonPerro:(NSString*) nombre{
 
- _label1.text = (@"boton perro:@%", nombre);
+ //_label1.text = (@"boton perro:@%", nombre);
 
 
 }
@@ -49,7 +70,36 @@
 
    // [self buttonPerro];
     
-    [self buttonPerro:@"Evil"];
+    //[self buttonPerro:@"Evil"];
+    
+    ageFunction("Roberto", 36);
+    
+    
+}
+
+- (IBAction)buttonAction2:(UIButton *)sender {
+    
+    
+    printf("prueba");
+    
+    for (int i = 0; i<100; i++) {
+        printf("i :%d\n", i);
+    }
+    
+// function
+
+
     
 }
 @end
+
+
+
+
+
+
+
+
+
+
+
