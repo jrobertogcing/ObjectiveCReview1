@@ -14,6 +14,15 @@
 
 @end
 
+struct person {
+    
+    int age;
+    int type;
+    
+    
+};
+
+
 @implementation ViewController
 
 
@@ -43,12 +52,31 @@
     
     int result2 = [instanceCreated sumarNum:40 numbers:11];
     printf("%d\n", result2);
-}
+    
+    // Array
+    
+    NSString *statements[9];
+    statements[0] = @"hello";
+    
+    
+    int j;
+    for (j = 0; j < 9; j++) {
 
+        statements[j] = @"hello";
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    }
+    
+    
+
+    int i;
+    for (i = 0; i < 9; i++) {
+        NSLog(@"%@", statements[i]);
+
+    }
+    
+   
+    NSLog(@"%@", statements[0]);
+
 }
 //MARK: function
 
